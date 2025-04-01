@@ -48,12 +48,10 @@ Cosine Similarity
 
 1. Resume Text Extraction
 Uses PyPDF2 to extract text from uploaded PDF resumes.
-
 Filters out unnecessary formatting and retains only textual content.
 
 2. Text Preprocessing
 Tokenization, lowercasing, and stopword removal using Spacy.
-
 Converts resumes and job descriptions into a structured format.
 
 3️. Feature Engineering (TF-IDF)
@@ -68,6 +66,8 @@ Returns a sorted list of resumes, ranked by relevance.
 
 # Results
 
+![image](https://github.com/user-attachments/assets/bf199700-b685-41c9-9aa2-dd24f57b4ecd)
+![image](https://github.com/user-attachments/assets/a36e42ab-bf38-4623-8213-3da58a69e455)
 
 
 # Future Improvements
