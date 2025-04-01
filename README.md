@@ -1,6 +1,6 @@
-# AI-powered-Resume-Screening-and-Ranking-System
+### AI-powered-Resume-Screening-and-Ranking-System
 
-📌 Overview
+# Overview
 Recruitment processes often involve screening hundreds of resumes manually, which is both time-consuming and prone to biases. This AI-powered Resume Screening and Ranking System automates resume evaluation using Natural Language Processing (NLP) and Machine Learning (ML) to rank candidates based on their relevance to a given job description.
 
 By leveraging TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity, this system provides recruiters with an efficient, unbiased, and data-driven method to shortlist candidates. The project features an interactive Streamlit-based UI, making it easy for HR professionals to upload resumes and obtain ranked results instantly.
