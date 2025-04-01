@@ -5,7 +5,7 @@ Recruitment processes often involve screening hundreds of resumes manually, whic
 
 By leveraging TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity, this system provides recruiters with an efficient, unbiased, and data-driven method to shortlist candidates. The project features an interactive Streamlit-based UI, making it easy for HR professionals to upload resumes and obtain ranked results instantly.
 
-🚀 Features
+# Features
 ✔ Automated Resume Screening – Eliminates the need for manual shortlisting.
 ✔ Text Extraction from PDF – Parses and processes resume content efficiently.
 ✔ TF-IDF Vectorization – Converts resumes and job descriptions into numerical vectors.
@@ -14,52 +14,18 @@ By leveraging TF-IDF (Term Frequency-Inverse Document Frequency) and cosine simi
 ✔ Multi-Resume Support – Upload multiple resumes at once and receive ranked results.
 ✔ Scalable & Fast – Handles large datasets efficiently with optimized computations.
 
-🛠 Installation & Setup
+# Installation & Setup
 1️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/AI-Resume-Screening.git
-cd AI-Resume-Screening
+
 2️⃣ Create a Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
+
 3️⃣ Activate the Virtual Environment
-Windows:
 
-bash
-Copy
-Edit
-venv\Scripts\activate
-Mac/Linux:
-
-bash
-Copy
-Edit
-source venv/bin/activate
 4️⃣ Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
+
 5️⃣ Download Spacy NLP Model
-This project requires the Spacy en_core_web_sm model. Install it using:
 
-bash
-Copy
-Edit
-python -m spacy download en_core_web_sm
-🖥 Usage
-Run the Application
-bash
-Copy
-Edit
-streamlit run app.py
-📌 Open your browser and go to http://localhost:8501
-
-How to Use the Application
+# How to Use the Application
 1️⃣ Enter the Job Description in the text box.
 2️⃣ Upload Resumes (PDF format only).
 3️⃣ Click "Rank Resumes" to initiate the screening process.
@@ -67,28 +33,19 @@ How to Use the Application
 
 The higher the similarity score, the better the resume matches the job description.
 
-📂 Project Structure
-bash
-Copy
-Edit
-📁 AI-Resume-Screening
-│── 📜 app.py                  # Main Streamlit application
-│── 📜 requirements.txt         # Required dependencies
-│── 📜 README.md                # Project documentation
-│── 📜 resume_dataset.csv       # Sample resume dataset
-│── 📁 venv                     # Virtual environment (ignored in GitHub)
-│── 📁 models                   # Future ML models for AI-based ranking
-🔧 Technologies Used
-Technology	Usage
-Python 🐍	Core language for processing and development
-Streamlit 🎨	Web-based UI for interactive ranking system
-Pandas 📊	Handling tabular data and processing resumes
-Scikit-learn 🧠	NLP and machine learning algorithms
-Spacy 📝	Advanced text processing and feature extraction
-PyPDF2 📄	Extracting text from PDF resumes
-TF-IDF 📈	Converting text into numerical vectors
-Cosine Similarity 🔍	Ranking resumes based on relevance
-📜 Methodology
+Technologies Used
+
+Python 
+Streamlit
+Pandas 
+Scikit-learn
+Spacy 
+PyPDF2 
+TF-IDF 
+Cosine Similarity 
+
+# Methodology
+
 1️⃣ Resume Text Extraction
 Uses PyPDF2 to extract text from uploaded PDF resumes.
 
