@@ -69,6 +69,9 @@ Returns a sorted list of resumes, ranked by relevance.
 ![image](https://github.com/user-attachments/assets/bf199700-b685-41c9-9aa2-dd24f57b4ecd)
 ![image](https://github.com/user-attachments/assets/a36e42ab-bf38-4623-8213-3da58a69e455)
 
+# How to Run the code
+
+<!-- Failed to upload "Screen Recording 2025-04-01 231435 (1).mp4" -->
 
 # Future Improvements
 
