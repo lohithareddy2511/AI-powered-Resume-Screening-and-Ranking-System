@@ -71,7 +71,7 @@ Returns a sorted list of resumes, ranked by relevance.
 
 # How to Run the code
 
-<!-- Failed to upload "Screen Recording 2025-04-01 231435 (1).mp4" -->
+
 
 # Future Improvements
 
