@@ -6,13 +6,13 @@ Recruitment processes often involve screening hundreds of resumes manually, whic
 By leveraging TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity, this system provides recruiters with an efficient, unbiased, and data-driven method to shortlist candidates. The project features an interactive Streamlit-based UI, making it easy for HR professionals to upload resumes and obtain ranked results instantly.
 
 # Features
-✔ Automated Resume Screening – Eliminates the need for manual shortlisting.
-✔ Text Extraction from PDF – Parses and processes resume content efficiently.
-✔ TF-IDF Vectorization – Converts resumes and job descriptions into numerical vectors.
-✔ Cosine Similarity Matching – Measures how closely a resume matches the job description.
-✔ Interactive Web Application – Simple Streamlit UI for easy resume uploads and analysis.
-✔ Multi-Resume Support – Upload multiple resumes at once and receive ranked results.
-✔ Scalable & Fast – Handles large datasets efficiently with optimized computations.
+1. Automated Resume Screening – Eliminates the need for manual shortlisting.
+2. Text Extraction from PDF – Parses and processes resume content efficiently.
+3. TF-IDF Vectorization – Converts resumes and job descriptions into numerical vectors.
+4. Cosine Similarity Matching – Measures how closely a resume matches the job description.
+5. Interactive Web Application – Simple Streamlit UI for easy resume uploads and analysis.
+6. Multi-Resume Support – Upload multiple resumes at once and receive ranked results.
+7. Scalable & Fast – Handles large datasets efficiently with optimized computations.
 
 # Installation & Setup
 1️. Clone the Repository
