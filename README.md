@@ -15,21 +15,21 @@ By leveraging TF-IDF (Term Frequency-Inverse Document Frequency) and cosine simi
 ✔ Scalable & Fast – Handles large datasets efficiently with optimized computations.
 
 # Installation & Setup
-1️⃣ Clone the Repository
+1️. Clone the Repository
 
-2️⃣ Create a Virtual Environment
+2️. Create a Virtual Environment
 
-3️⃣ Activate the Virtual Environment
+3️. Activate the Virtual Environment
 
-4️⃣ Install Dependencies
+4️. Install Dependencies
 
-5️⃣ Download Spacy NLP Model
+5️. Download Spacy NLP Model
 
 # How to Use the Application
-1️⃣ Enter the Job Description in the text box.
-2️⃣ Upload Resumes (PDF format only).
-3️⃣ Click "Rank Resumes" to initiate the screening process.
-4️⃣ View the Ranked List of Candidates with similarity scores.
+1️. Enter the Job Description in the text box.
+2️. Upload Resumes (PDF format only).
+3️. Click "Rank Resumes" to initiate the screening process.
+4️. View the Ranked List of Candidates with similarity scores.
 
 The higher the similarity score, the better the resume matches the job description.
 
@@ -46,40 +46,41 @@ Cosine Similarity
 
 # Methodology
 
-1️⃣ Resume Text Extraction
+1. Resume Text Extraction
 Uses PyPDF2 to extract text from uploaded PDF resumes.
 
 Filters out unnecessary formatting and retains only textual content.
 
-2️⃣ Text Preprocessing
+2. Text Preprocessing
 Tokenization, lowercasing, and stopword removal using Spacy.
 
 Converts resumes and job descriptions into a structured format.
 
-3️⃣ Feature Engineering (TF-IDF)
+3️. Feature Engineering (TF-IDF)
 TF-IDF Vectorization is applied to transform textual data into numerical representations.
 
 This ensures each word’s importance is weighed properly.
 
-4️⃣ Resume Ranking (Cosine Similarity)
+4️. Resume Ranking (Cosine Similarity)
 Measures the similarity between the job description vector and resume vectors.
 
 Returns a sorted list of resumes, ranked by relevance.
 
-🌍 Future Improvements
-🔹 Deep Learning Models for Better Matching
+# Future Improvements
+
+a. Deep Learning Models for Better Matching
 Instead of relying only on TF-IDF, future versions will integrate BERT (Bidirectional Encoder Representations from Transformers) and GPT-based models to understand the context more effectively.
 
-🔹 Multilingual Support
+b. Multilingual Support
 Currently, the system processes only English resumes. Future updates will include multi-language support using mBERT (Multilingual BERT).
 
-🔹 Enhanced Resume Scoring
+c. Enhanced Resume Scoring
 Weighting different sections (Experience, Education, Skills) separately.
 
 Using structured data to improve scoring accuracy.
 
-🔹 Explainable AI (XAI) for Transparency
+d. Explainable AI (XAI) for Transparency
 Integrate SHAP (Shapley Additive Explanations) to provide insights into ranking decisions.
 
-🔹 Integration with Applicant Tracking Systems (ATS)
+e. Integration with Applicant Tracking Systems (ATS)
 This system can be expanded to work directly with ATS platforms for seamless hiring workflows
