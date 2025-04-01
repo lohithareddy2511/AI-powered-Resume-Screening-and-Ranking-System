@@ -66,6 +66,10 @@ Measures the similarity between the job description vector and resume vectors.
 
 Returns a sorted list of resumes, ranked by relevance.
 
+# Results
+
+
+
 # Future Improvements
 
 a. Deep Learning Models for Better Matching
